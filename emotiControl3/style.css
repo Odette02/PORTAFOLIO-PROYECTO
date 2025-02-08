@@ -1,0 +1,160 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url('https://phantom-marca.unidadeditorial.es/96b1c2f756e5c80c24cb07c3681e98c9/resize/828/f/jpg/assets/multimedia/imagenes/2023/10/15/16973514116517.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    overflow: auto;
+    position: relative;
+    text-align: center;
+}
+body {
+    overflow-y: auto; /* Para scroll vertical */
+    overflow-x: hidden; /* Para ocultar scroll horizontal */
+    -webkit-overflow-scrolling: touch; /* Propiedad para mejorar el scroll en iOS */
+}
+
+
+#registroForm, #loginForm {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #d49725;
+    color: rgb(12, 11, 11);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+#loginForm {
+    display: none;
+}
+
+#registroExitoso, #inicioSesionExitoso {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+#registroExitoso p, #inicioSesionExitoso p {
+    margin: 0;
+}
+
+#registroExitoso button, #inicioSesionExitoso button {
+    margin-top: 10px;
+}
+
+#demo-desktop-month-view .mbsc-event-calendar-event {
+    font-size: 10px; /* Ajusta el tamaño de la fuente de los eventos del calendario */
+}
+
+#demo-desktop-month-view .mbsc-event-calendar-day-text {
+    font-size: 10px; /* Ajusta el tamaño de la fuente de los días del calendario */
+}
+#demo-desktop-month-view {
+    width: 250px;
+    height: 330px; /* Ajusta la altura según sea necesario para mostrar todo el calendario */
+}
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas */
+    #demo-desktop-month-view {
+        width: 100%;
+        height: 300px; /* Ajusta la altura según sea necesario para mostrar todo el calendario */
+    }
+}
+@media screen and (max-width: 768px) {
+    #demo-desktop-month-view {
+        width: 100%;
+        height: 300px; /* Ajusta la altura según sea necesario para mostrar todo el calendario */
+    }
+}
+.remote-control {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.remote-control .emotion-button {
+    background-color: #f0f0f0; /* Color de fondo base */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remote-control .emotion-button:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.remote-control .emotion-button:active {
+    transform: translateY(1px); /* Efecto de presión al hacer click */
+}
+
+.home-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+.home-button:hover {
+    background-color: #444;
+}
+#ver-todas {
+    background-color: #d0f6f9;
+    border-radius: 25px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    color: #000000; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+#ver-todas:hover {
+    background-color: #bdeef3; /* Color al pasar el ratón */
+}
